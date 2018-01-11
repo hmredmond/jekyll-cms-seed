@@ -1,6 +1,6 @@
-# Cyber Essentals CMS UI workflow
+# CMS UI workflow
 
-A workflow UI project for the Jekyll base cms Cyberfirst site.
+A workflow UI project for the Jekyll base cms site.
 
 [Jekyll documentation is here.](https://jekyllrb.com/)
 
@@ -69,5 +69,5 @@ The workflow folder contains all of the js scripts which define the gulp tasks. 
 ## Includes:
 
 * File tree with `_data/`, `_includes/`, `_layouts/`, `_posts/`, `_site/`, `assets/`, `category/`, `tag/` and other subfolders.
-* Asset setup with Sass. Grunt setup for managing assets.
+* Asset setup with Sass. gulp setup for managing assets.
 * Initial categories and tags structures, and corresponding layouts.
