@@ -9,8 +9,12 @@
       "clean": "cd gulp-ui-workflow && gulp clean:all",
       "watch": "cd gulp-ui-workflow && gulp watch:assets"
     },
-    "author": "Hannah Redmond",
+    "author": "BAESystems Creative Gloucester",
     "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://engineering/bitbucket/projects/CREATIVE/repos/creative-jekyll-cms-seed/"
+    },
     "devDependencies": {},
     "dependencies": {}
   
