@@ -4,10 +4,10 @@
     "description": "Create sed for Jekyll Websites",
     "scripts": {
       "start": "jekyll build --watch --config _config.yml -d _site & npm run develop",
-      "develop" : "cd _creative-gulp-ui-workflow && gulp pre:develop && gulp develop", 
-      "test": "cd _creative-gulp-ui-workflow && gulp test",
-      "clean": "cd _creative-gulp-ui-workflow && gulp clean:all",
-      "watch": "cd _creative-gulp-ui-workflow && gulp watch:assets"
+      "develop" : "cd gulp-ui-workflow && gulp pre:develop && gulp develop", 
+      "test": "cd gulp-ui-workflow && gulp test",
+      "clean": "cd gulp-ui-workflow && gulp clean:all",
+      "watch": "cd gulp-ui-workflow && gulp watch:assets"
     },
     "author": "BAESystems Creative Gloucester",
     "license": "ISC",
