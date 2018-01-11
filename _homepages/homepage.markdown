@@ -6,8 +6,8 @@ categories:
 - home
 header:
   is-visible: true
-  title: Protecting your organisation against the most common cyber attacks is easy.
-  subtext: Find out how, with Cyber Essentials.
+  title: This is a title for the home page
+  subtext: Find out something!
 recent-posts:
   title: Recent Posts
 layout: homepage
