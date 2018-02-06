@@ -3,6 +3,7 @@ pages:
 - pages/sitemap.markdown
 - pages/cms-guidelines.markdown
 - pages/404.markdown
+- _uploads/hhh.md
 hide_body: false
 fields:
 - name: title
