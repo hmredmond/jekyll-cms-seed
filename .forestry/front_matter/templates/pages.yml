@@ -4,6 +4,7 @@ pages:
 - pages/cms-guidelines.markdown
 - pages/404.markdown
 - _uploads/hhh.md
+- _information-pages/something-else.md
 hide_body: false
 fields:
 - name: title
