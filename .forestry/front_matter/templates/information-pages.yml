@@ -1,5 +1,6 @@
 ---
 pages:
+- _information-pages/something-else.md
 - _information-pages/sample.markdown
 hide_body: false
 fields:
