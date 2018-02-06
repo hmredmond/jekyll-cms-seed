@@ -4,15 +4,9 @@ layout: base
 
 {% if page.header.is-visible %}
 
-    {% samplePlugin %} 
-        [headertitle={{page.header.title| escape}}]  
-        [headersubtext={{page.header.subtext| escape}}] 
-    {% endsamplePlugin %}
+
 
 {% endif %}
-
-
-
 
 {% if page.cyber-first-news.is-visible %}
 
@@ -26,23 +20,7 @@ layout: base
     <section class='row recent-news'>
         <div class='section-container'>  
             <h2>{{page.latest_news.title}}</h2>
-            {% relatedPosts %} 
-                [item1_title={{latest3Posts[0].title| escape}}]
-                [item1_summary={{latest3Posts[0].summary| escape}}]
-                [item1_link={{latest3Posts[0].url| escape}}]
-                [item1_date={{latest3Posts[0].date|date_to_long_string| escape}}]
-                
-                [item2_title={{latest3Posts[1].title| escape}}]
-                [item2_summary={{latest3Posts[1].summary| escape}}]
-                [item2_link={{latest3Posts[1].url| escape}}]
-                [item2_date={{latest3Posts[1].date|date_to_long_string| escape}}]
-                
-                [item3_title={{latest3Posts[2].title| escape}}]
-                [item3_summary={{latest3Posts[2].summary| escape}}]
-                [item3_link={{latest3Posts[2].url| escape}}]  
-                [item3_date={{latest3Posts[2].date|date_to_long_string| escape}}]
-
-            {% endrelatedPosts %}
+           
         </div>
     </section>
 {% endif %}
